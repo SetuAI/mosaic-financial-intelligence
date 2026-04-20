@@ -1,0 +1,37 @@
+# ── LLM and orchestration
+openai
+langchain
+langchain-openai
+langchain-community
+langgraph
+langsmith
+
+# ── EDGAR and web
+httpx
+beautifulsoup4
+lxml
+requests
+
+# ── Financial data
+yfinance
+
+# ── Vector store
+faiss-cpu
+pgvector
+psycopg2-binary
+
+# ── AWS
+boto3
+
+# ── Data handling and validation
+pydantic
+pydantic-settings
+python-dotenv
+pandas
+
+# ── Retry and resilience
+tenacity
+
+# ── Utilities
+tqdm
+tiktoken

@@ -1,0 +1,27 @@
+
+# Secrets — never commit these
+.env
+
+# Data files — too large for GitHub, regenerate locally
+data/raw/
+data/processed/
+data/vector_store/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+*.egg-info/
+
+# Test artifacts
+test_*.py
+data/hitl_queue_latest.json
+data/hitl_audit_log.jsonl
+
+# AWS CDK
+cdk.out/
+aws/stack_outputs.json
+
+# OS
+.DS_Store
